@@ -254,6 +254,15 @@ textarea {
     border-color: #FFC107;
 }
 
+#copyright {
+    background-color: black;
+    width: 100%;
+}
+
+#social-media a {
+    color: white;
+}
+
 
 /*style.css di Mauro */
 
