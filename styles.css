@@ -81,6 +81,7 @@ img {
 
 
 .sobre-nosotros__imagen {
+    /*background-image: url(img/contatto.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 310px;
@@ -139,6 +140,8 @@ textarea {
 .enviar .boton {
     width: 29%;
 }
+
+
 
 
 /*@media di contatto*/
@@ -203,14 +206,7 @@ textarea {
 
 }
 
-.aaa{
-    align-items: center;
-    height: 300px;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
 
-}
 
 
 /* CSS LUCA */
@@ -224,8 +220,6 @@ textarea {
     color: #fff;
     background-color: #FFC107 !important;
 }
-
-
 
 .coloredbox1 {
     background-color: var(--gris) ;
@@ -298,18 +292,39 @@ h3{
 
 }
 
-<<<<<<< HEAD
+
+/* Header */
 .container{padding: 20px; width: 100%; display: block;}
 .container_copy{border: 1px solid green; display: flex; height: 100%; width: 100%;}
 .card{width: 30%;}
 .logo{display: inline;}
-=======
-<<<<<<< HEAD
 
+/*-------------------------
+Cover
+-------------------------*/
+.cover{height: 448px; background-image: url(img/vista.jpg);
+background-size: cover; -o-background-size: cover;
+-moz-background-size: cover; background-position: center center;
+position: relative; margin-top: -92px; margin-bottom: 100px;}
+.cover_filter{background: #000; width: 100%; height: 100%; position: absolute; z-index: 1; opacity: 0.3;}
+.cover_caption{display: table; height: 67%; width: 66%; position: relative; z-index: 2; margin: auto; font-size: 24px;}
+.cover_caption_copy{display: table-cell; vertical-align: bottom; text-align: left; color: #fff;}
 
-=======
-.container{border: 1px solid red; padding: 20px;}
-.container_copy{border: 1px solid green; display: flex; height: 100%; width: 100%;}
-.card{width: 30%;}
->>>>>>> 61518e27895a4e675d5c47db2a50478643b06925
->>>>>>> 6f04e034ffc540ab1c9f4965318899ea72bae54c
+/* Banner */
+.cards{max-width: 1200px; margin: 40px auto;}
+.card{width: 30%; margin: 0 1.5%; background: #fff; float: left; cursor: pointer;}
+.card_image{width: 100%; height: auto;}
+.card_copy{padding: 5px 20px; float: left;}
+.card_copy h3{margin-bottom: 0;}
+
+/* Clearfix */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; } /* IE7 */
