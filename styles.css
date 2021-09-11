@@ -293,15 +293,11 @@ h3{
 }
 
 
-<<<<<<< HEAD
 /* Header */
-=======
->>>>>>> a09844897e93c6edd9868a1d3e49ffb712906200
 .container{padding: 20px; width: 100%; display: block;}
 .container_copy{border: 1px solid green; display: flex; height: 100%; width: 100%;}
 .card{width: 30%;}
 .logo{display: inline;}
-<<<<<<< HEAD
 
 /*-------------------------
 Cover
@@ -332,28 +328,3 @@ position: relative; margin-top: -92px; margin-bottom: 100px;}
   }
   * html .clearfix             { zoom: 1; } /* IE6 */
   *:first-child+html .clearfix { zoom: 1; } /* IE7 */
-=======
-
-
-.container {
-    border: 1px solid red;
-    padding: 20px;
-}
-
-.container_copy {
-    border: 1px solid green;
-    display: flex;
-    height: 100%;
-    width: 100%;
-}
-
-
-.card {
-    width: 30%;
-}
-
-.container{border: 1px solid red; padding: 20px;}
-.container_copy{border: 1px solid green; display: flex; height: 100%; width: 100%;}
-.card{width: 30%;}
-
->>>>>>> a09844897e93c6edd9868a1d3e49ffb712906200
