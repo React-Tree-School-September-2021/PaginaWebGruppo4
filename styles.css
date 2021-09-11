@@ -46,30 +46,11 @@ h3 {
     text-align: center;
 }
 
-/*
-.titulo span {
-    font-size: 19px;
-}
-*/
-/*
-.contenedor {
-    max-width: 1200px;
-    margin: 0 auto 0 auto;
-}
-*/
 
 img {
     max-width: 100%;
 }
 
-/*
-.container {
-    
-    max-width: 1200px;
-    width: 90%;
-    margin: 0 auto;
-}
-*/
 
 .boton {
     background-color: var(--secundario);
@@ -237,7 +218,7 @@ textarea {
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #FFC107;
+    background-color: #FFC107 !important;
 }
 
 .coloredbox1 {
@@ -263,37 +244,40 @@ h3{
 .pres{
 
     color: black;
-    background-color: aquamarine;
+    background-color: #FFC107;
     text-align: center;
-    border: 5px solid aquamarine;
+    border: 5px solid #FFC107;
     border-radius: 10px;
 }
 .pres:hover{
 
     color: white;
-    background-color: aquamarine;
+    background-color: #FDFDFE;
     text-align: center;
-    border: 5px solid aquamarine;
+    border: 5px solid #FDFDFE;
     border-radius: 10px;
 }
 
 .cont1{
-    border: 1px solid aquamarine;
+    border: 1px solid #FFC107;
     border-radius: 10px;
 }
 .aaa{
     align-items: center;
-    height: 200px;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
 }
 .descr{
-    background-color: aquamarine;
+    background-color: #FFC107;
     border-radius: 10px;
 
 }
 .but{text-align: center}
 
 .chisiamo{
-    background-color: aquamarine;
+    background-color: #FFC107;
 }
 .presentazione{
     background-color: none;
@@ -308,3 +292,6 @@ h3{
 
 }
 
+.container{border: 1px solid red; padding: 20px;}
+.container_copy{border: 1px solid green; display: flex; height: 100%; width: 100%;}
+.card{width: 30%;}
