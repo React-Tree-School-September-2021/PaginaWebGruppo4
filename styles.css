@@ -292,6 +292,7 @@ h3{
 
 }
 
-.container{border: 1px solid red; padding: 20px;}
+.container{padding: 20px; width: 100%; display: block;}
 .container_copy{border: 1px solid green; display: flex; height: 100%; width: 100%;}
 .card{width: 30%;}
+.logo{display: inline;}
