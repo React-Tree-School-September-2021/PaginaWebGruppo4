@@ -161,6 +161,8 @@ textarea {
 }
 
 
+
+
 /*@media di contatto*/
 @media(min-width: 820px){
     .formulario{
@@ -251,3 +253,57 @@ textarea {
     background-color: #FFC107;
     border-color: #FFC107;
 }
+
+
+/*style.css di Mauro */
+
+h3{
+    text-align: center;
+}
+.pres{
+
+    color: black;
+    background-color: aquamarine;
+    text-align: center;
+    border: 5px solid aquamarine;
+    border-radius: 10px;
+}
+.pres:hover{
+
+    color: white;
+    background-color: aquamarine;
+    text-align: center;
+    border: 5px solid aquamarine;
+    border-radius: 10px;
+}
+
+.cont1{
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+}
+.aaa{
+    align-items: center;
+    height: 200px;
+}
+.descr{
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+.but{text-align: center}
+
+.chisiamo{
+    background-color: aquamarine;
+}
+.presentazione{
+    background-color: none;
+    border-radius: 10px;
+    padding: 5px;
+    border-top: 5px;
+    border-radius: 10px;
+}
+.row1{
+
+    align-items: center;
+}
+
