@@ -46,30 +46,11 @@ h3 {
     text-align: center;
 }
 
-/*
-.titulo span {
-    font-size: 19px;
-}
-*/
-/*
-.contenedor {
-    max-width: 1200px;
-    margin: 0 auto 0 auto;
-}
-*/
 
 img {
     max-width: 100%;
 }
 
-/*
-.container {
-    
-    max-width: 1200px;
-    width: 90%;
-    margin: 0 auto;
-}
-*/
 
 .boton {
     background-color: var(--secundario);
@@ -100,7 +81,6 @@ img {
 
 
 .sobre-nosotros__imagen {
-    /*background-image: url(img/contatto.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     height: 310px;
@@ -159,8 +139,6 @@ textarea {
 .enviar .boton {
     width: 29%;
 }
-
-
 
 
 /*@media di contatto*/
@@ -225,7 +203,14 @@ textarea {
 
 }
 
+.aaa{
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
 
+}
 
 
 /* CSS LUCA */
@@ -239,6 +224,8 @@ textarea {
     color: #fff;
     background-color: #FFC107;
 }
+
+
 
 .coloredbox1 {
     background-color: var(--gris) ;
@@ -307,4 +294,6 @@ h3{
     align-items: center;
 
 }
+
+
 
