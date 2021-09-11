@@ -307,16 +307,12 @@ h3 {
 
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 .container{padding: 20px; width: 100%; display: block;}
 .container_copy{border: 1px solid green; display: flex; height: 100%; width: 100%;}
 .card{width: 30%;}
 .logo{display: inline;}
-=======
-<<<<<<< HEAD
->>>>>>> d0256db3129864cd4cce6e945d8fa4186a03345e
+
 
 .container {
     border: 1px solid red;
@@ -330,15 +326,12 @@ h3 {
     width: 100%;
 }
 
-<<<<<<< HEAD
+
 .card {
     width: 30%;
 }
-=======
-=======
+
 .container{border: 1px solid red; padding: 20px;}
 .container_copy{border: 1px solid green; display: flex; height: 100%; width: 100%;}
 .card{width: 30%;}
->>>>>>> 61518e27895a4e675d5c47db2a50478643b06925
->>>>>>> 6f04e034ffc540ab1c9f4965318899ea72bae54c
->>>>>>> d0256db3129864cd4cce6e945d8fa4186a03345e
+
