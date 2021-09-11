@@ -225,6 +225,11 @@ textarea {
 
 }
 
+
+
+
+/* CSS LUCA */
+
 .nav-link {
     
     color: black; 
@@ -232,7 +237,21 @@ textarea {
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: green;
+    background-color: #FFC107;
+}
+
+.coloredbox1 {
+    background-color: var(--gris) ;
+}
+
+.coloredbox2 {
+    background-color: var(--grisClaro) ;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FFC107;
+    border-color: #FFC107;
 }
 
 
